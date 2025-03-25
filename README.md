@@ -80,11 +80,11 @@ A **weather application** that fetches and displays real-time weather data based
 ## 🛠 How to Run  
 1️⃣ **Clone the repository**  
 ```bash
-git clone https://github.com/yourusername/web-development-projects.git
+git clone https://github.com/Sang-19/PRODIGY_WD.git
 ```
 2️⃣ **Navigate to the desired project folder**  
 ```bash
-cd web-development-projects/PRODIGY_WD_01
+cd PRODIGY_WD
 ```
 3️⃣ **Open the `index.html` file in your browser**  
 
