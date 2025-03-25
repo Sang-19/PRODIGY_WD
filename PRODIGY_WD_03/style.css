@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.status {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    background: #333;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 auto; /* Add this line to center the board */
+    width: fit-content; /* Add this line to make the board only as wide as needed */
+}
+
+.cell {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cell:hover {
+    background: #f0f0f0;
+}
+
+#restartButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#restartButton:hover {
+    background: #45a049;
+}
+
+.winning-cell {
+    background: #4CAF50 !important;
+    color: white;
+}
+
+.game-mode-select {
+    margin-bottom: 20px;
+}
+
+.game-mode-select .mode-btn {
+    background: #2196F3;
+}
+
+.game-mode-select .mode-btn.active {
+    background: #1976D2;
+}
+
+.mode-select {
+    margin-bottom: 20px;
+}
+
+.mode-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #666;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.mode-btn.active {
+    background: #4CAF50;
+}
+
+.mode-btn:hover {
+    opacity: 0.9;
+}
