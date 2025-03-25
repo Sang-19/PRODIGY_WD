@@ -62,8 +62,3 @@ A weather application that fetches and displays weather data based on user locat
 1. Clone the repository
 2. Navigate to the desired project folder
 3. Open the `index.html` file in your web browser
-
-## Contact
-Sangbed Pati
-- GitHub: [Your GitHub Profile]
-- LinkedIn: [Your LinkedIn Profile]
